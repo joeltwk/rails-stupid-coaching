@@ -1,0 +1,12 @@
+<h1>Stupid Coaching</h1>
+  <div class="question_container">
+    <p class="input"><%= params[:question] %></p>
+    <p>-You</p>
+  </div>
+
+  <div class="answer_container highlight">
+    <p class="answer"><%= @answer %></p>
+    <p>-Coach</p>
+  </div>
+
+<%= link_to "Ask Again", "ask" %>
